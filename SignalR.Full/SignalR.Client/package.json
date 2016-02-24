@@ -1,0 +1,31 @@
+{
+  "name": "angular-signalr-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusmcg/signalr-chat.git"
+  },
+  "keywords": [
+    "angular",
+    "signalr",
+    "chat"
+  ],
+  "author": "Mateus Cerqueira <mateus_mcg@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateusmcg/signalr-chat/issues"
+  },
+  "homepage": "https://github.com/mateusmcg/signalr-chat#readme",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-flatten": "^0.2.0",
+    "merge-stream": "^1.0.0"
+  }
+}

@@ -154,3 +154,14 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+
+
+/packages
+node_modules/
+bower_components/
+**/assets/libs
+**/assets/fonts/
+**/assets/css/bootstrap.css
+**/assets/css/font-awesome.css
+**/assets/css/weather-icons.css
+**/assets/css/weather-icons-wind.css
