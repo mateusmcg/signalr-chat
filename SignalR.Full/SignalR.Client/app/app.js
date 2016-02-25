@@ -17,5 +17,5 @@ app.config(['$routeProvider', function ($routeProvider) {
 }]);
 
 app.run(['$log', function ($log) {
-    $log.debug('Starting app.run');
+    $log.debug('Starting app.run!');
 }]);
