@@ -1,13 +1,11 @@
 ﻿'use strict';
 
-app.controller('MapsController', [function () {
+app.controller('MapsController', ['signalrServerUrl', function (signalrServerUrl) {
     var vm = this;
 
     vm.map = null;
 
-    var signalRServerUrl = 'http://localhost:50778/signalr'
-    //var connection = $.connection.url(signalRServerUrl);
-    $.connection.hub.url = signalRServerUrl;
+    $.connection.hub.url = signalrServerUrl;
     var mapHub = $.connection.mapHub;
 
     mapHub.client.addClientToMap = function (client) {

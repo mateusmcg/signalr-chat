@@ -2,6 +2,8 @@
 
 var app = angular.module('chatApp', ['ngRoute']);
 
+app.constant('signalrServerUrl', 'http://signalrserver.apphb.com/signalr');
+
 app.config(['$routeProvider', function ($routeProvider) {
     console.debug('Starting app.config');
 
